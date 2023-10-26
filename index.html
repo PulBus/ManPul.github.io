@@ -11,11 +11,11 @@
             <p id="nameDate">Manuel Pulgar | 2023</p>
         </header>
         <nav>
-            <div><a href="animeAndManga.html">Anime and Manga</a></div>
-            <div><a href="videoGames.html">Video Games</a></div>
+            <div role="link"><a href="animeAndManga.html">Anime and Manga</a></div>
+            <div role="link"><a href="videoGames.html">Video Games</a></div>
         </nav>
         <aside>
-            <div> </div>
+            <div role="none"> </div>
         </aside>
         <p id="state">
             <strong>Thank you for visiting my webpage. 
@@ -23,16 +23,16 @@
             is how I pass most of my time</strong><br><br>
             Click the pictures to learn more about them!
         </p>
-        <div id="grid-container">
-            <div id="aNm" class="odd">
+        <div role="structure" id="grid-container">
+            <div role="section" id="aNm" class="odd">
                 <a href="https://en.wikipedia.org/wiki/One_Piece" target="_blank"><img src="animeAndManga.jpg" alt="Picture of One Piece"class="pic oddPic"></a>
-                <div class="desc oddDesc">One Piece is my favorite anime/manga. <br>
+                <div role="cell" class="desc oddDesc">One Piece is my favorite anime/manga. <br>
                 The <em>short</em> series is written and illustrated by Eiichiro Oda AKA "Goda". Recently
                 One Piece has gotten a live action adaptation, 8 episodes covering the "East Blue Saga"</div>
             </div>
-            <div id="vD" class="even">
+            <div role="section" id="vD" class="even">
                 <a href="https://www.rocketleague.com/" target="_blank"><img src="rocketLeague.jpg" alt="Picture of Rocket League" class="pic evenPic"></a>
-                <div class="desc evenDesc">Rocket League came out in 2015. <br>
+                <div role="cell" class="desc evenDesc">Rocket League came out in 2015. <br>
                 I got the game on launch and have consistently been playing it since. My favorite game mode
                 to play is 2v2s. Rocket League is the only game that my friends and I will do private matches on, which is a big reason
                 as to why I have consistently played it since launch.</div>
@@ -40,7 +40,7 @@
         </div>
     </body>
     <footer>
-        <div>ManPul &copy;</div>
+        <div role="contentinfo">ManPul &copy;</div>
         <button onclick="toggleCSS()">Switch Style</button>
     </footer>
     <script>
